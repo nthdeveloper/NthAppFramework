@@ -100,7 +100,7 @@ namespace NthDeveloper.AppFramework.Events
                 {
                     var subscriber = subscribers[i];
 
-                    //eðer subscriber beklemeli ise, bekletelim
+                    //eÃ°er subscriber beklemeli ise, bekletelim
                     if (subscriber.Delay > 0 && !subscriber.IsDelayCompleted)
                     {
                         UnregisterDelay(subscriber);
